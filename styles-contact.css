@@ -121,7 +121,7 @@ font-style: normal;
 	font-size: 1.2em;
 	width: 60%; /*this makes sure the linkes stay in the center div*/
 	margin: 0 auto;
-	border: solid white;
+	border: solid rgb(139, 255, 249);
 	border-width: 2px 0;
 	text-align: center;
 	margin top: 1em;
@@ -134,14 +134,34 @@ nav a {
 	padding: 10px;
 }
 a{
-	color: rgb(180, 205, 200);
+	color: rgb(205, 255, 209);
 	text-decoration: none;
 	font-weight: bold;
+
 }
-a:hover{
-	color: rgb(180, 205, 200);
-	background: rgb(40, 50, 58);
-	background-size: 80%;
-}
+
+.grower {
+    display: block;
+    margin: 0 auto;
+    width: 120px;
+    padding: 2px 5px;
     
+
+    
+    -moz-transition: all 0.1s ease-in-out;
+    -webkit-transition: all 0.1s ease-in-out;
+    -moz-border-radius: 2px;
+    -webkit-border-radius: 2px;
+}
+.grower:hover {
+    background: rgb(230, 182, 100);
+    border-color: rgba(230,182,100,1.0);
+
+    -moz-transform: scale(1.2);
+    -webkit-transform: scale(1.2); 
+
+
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+}
 
